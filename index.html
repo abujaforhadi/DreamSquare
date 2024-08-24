@@ -43,7 +43,7 @@
                 </svg></p>
                 <a class="btn btn-ghost text-2xl md:text-3xl font-bold  md:font-extrabold">
                     DreamSquare</a>
-                    
+
             </div>
             <div class="navbar-center hidden md:flex">
                 <ul class="menu menu-horizontal text-color-t px-1 ">
@@ -87,8 +87,8 @@
                         </button>
                     </div>
                     <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
-                        <svg class="swap-off fill-current bg-white rounded-full p-1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                            viewBox="0 0 512 512">
+                        <svg class="swap-off fill-current bg-white rounded-full p-1" xmlns="http://www.w3.org/2000/svg"
+                            width="32" height="32" viewBox="0 0 512 512">
                             <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
                         </svg>
 
@@ -465,20 +465,22 @@
             <p class="py-5 font-medium text-lightblack">The barn house captivates with its blend of rustic charm and
                 modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
 
-            <form action="">
-                <input type="text" placeholder="Type here" class="input input-bordered input-success w-1/2 max-w-xs" />
-                <input type="text" placeholder="Type here" class="input input-bordered input-success w-1/2 max-w-xs" />
-                <br><br>
-                <input type="text" placeholder="Type here" class="input input-bordered input-success w-1/2 max-w-xs" />
-                <input type="text" placeholder="Type here" class="input input-bordered input-success w-1/2 max-w-xs" />
-                <br><br>
-                <textarea placeholder="Bio" class="textarea   textarea-success textarea-lg w-full max-w-2xl"></textarea>
-                <br>
-                <br>
-                <button class="btn rounded-3xl font-bold text-xl bg-mygreen  box-border">
-                    View Details
+            <form class="md:px-24 text-[#A0A0A0] font-medium">
+                <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+                    <input type="text" placeholder="First Name*" class="input rounded-3xl input-bordered input-success w-full rou" />
+                    <input type="text" placeholder="Email Number*" class="input rounded-3xl input-bordered input-success w-full " />
+
+                    <input type="text" placeholder="Phone Number*" class="input rounded-3xl input-bordered input-success w-full " />
+                    <input type="text" placeholder="Email Number*" class="input rounded-3xl input-bordered input-success w-full " />
+
+                </div>
+                <textarea placeholder="Write your message here" class="textarea my-6 rounded-3xl textarea-success w-full "></textarea>
+
+
+                <button class="btn rounded-3xl font-bold text-xl bg-mygreen w-full   box-border">
+                    Send Mail
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6 rounded-full p-1 ">
+                        stroke="currentColor" class="size-6 rounded-full p-1 bg-black text-white ">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                     </svg>
